@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1200px) {
+    html {
+      display: flex;
+      opacity: 1;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  
+  .banner {
+    position: sticky;
+    top: 0;
+    background-image: url(../Lab8/Dopamine.JPG);
+    height: 12rem;
+    width: 100rem;
+    /* opacity: .3; */
+    color: whitesmoke;
+  }
+  
+  /*
+  .background {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: 0.3;
+    position: sticky;
+  }
+  */
+  
+  .image {
+    top: 0;
+    height: 30rem;
+    width: 90rem;
+  }
+  
+  @media only screen and (max-width: 1200rem) {
+    .feed {
+      display: flex;
+      flex-wrap: wrap;
+      height: 40rem;
+      width: 100rem;
+      border: 1px solid green;
+      align-items: end;
+      justify-content: space-between;
+      margin: 20px;
+      min-width: 5rem;
+    }
+  }
+  
+  .username {
+    font-size: 30px;
+  }
+  
+  button:hover {
+      color:blue
+  }
+  
+  /* button:active {
+    color: red;
+  } */
+  
+  img.like {
+    height: 5px;
+    width: 5px
+  }
+  
+  button.like{
+    border: none;
+    height: 1px;
+    widht: 1px;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+     transition: transform .7s ease-in-out;
+    margin-left:10px;
+  
+  }
+  button:hover.like{
+    transform: rotate(360deg);
+  
+  .description {
+    display: flex;
+    bottom:0
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+  }
+  
+  .image {
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+  
